@@ -1,0 +1,8 @@
+[PM2] Applying action stopProcessId on app [/var/www/crm.tavicosoft.com/callevent/server.js](ids: 0)
+[PM2] [server](0) ✓
+┌──────────┬────┬──────┬─────┬─────────┬─────────┬────────┬─────┬────────┬──────┬──────────┐
+│ App name │ id │ mode │ pid │ status  │ restart │ uptime │ cpu │ mem    │ user │ watching │
+├──────────┼────┼──────┼─────┼─────────┼─────────┼────────┼─────┼────────┼──────┼──────────┤
+│ server   │ 0  │ fork │ 0   │ stopped │ 15      │ 0      │ 0%  │ 0 B    │ crm  │ disabled │
+└──────────┴────┴──────┴─────┴─────────┴─────────┴────────┴─────┴────────┴──────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
